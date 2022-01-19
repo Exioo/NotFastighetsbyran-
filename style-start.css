@@ -13,9 +13,11 @@
 }
 
 .fast {
-  position: relative;
-  width: 10px;
-  left: 30%;
+  position: fixed;
+  right: 42.25
+  %;
+  top: 2.75mm;
+  width: 15.5em;
 }
 
 .navbar {
@@ -24,6 +26,7 @@
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   max-width: 100%; /* Full width */
+  height: 4.5em;
 }
 
 /* Links inside the navbar */
@@ -32,8 +35,9 @@
   display: block;
   color: #F35B48;
   text-align: center;
-  padding: 14px 16px;
+  padding: 21px 16px;
   text-decoration: none;
+  
 }
 
 /* Change background on mouse-over */
