@@ -84,7 +84,6 @@ h1 {
   transform: translate(-50%, -50%);
   font-size: 18.5px;
   font-weight: bolder;
-
 }
 
 .under {
@@ -122,6 +121,13 @@ h1 {
 }
 
 
+
+.kop {
+  text-align: center;
+  padding: 2.5em;
+  color: #F07000;
+  font-size: 1.15em;
+}
 
 /* Box sizing rules */
 *,
