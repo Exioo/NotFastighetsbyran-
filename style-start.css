@@ -16,7 +16,7 @@
   position: absolute;
   top: 4.5mm;
   width: 12em;
-  left: 42.5%;
+  left: 45.5%;
 }
 
 @media screen and (max-width: 800px) {
@@ -341,4 +341,22 @@ h3 {
 
 .testimonial > p:last-of-type {
   opacity: 0.7;
+}
+
+.div-wrapper {
+  position: relative;
+  height: 25em;
+}
+
+.div-wrapper img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.begrip {
+  width: 20em;
+  top: 0;
+  left: 0;
+  color: transparent;
 }
