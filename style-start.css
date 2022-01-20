@@ -88,7 +88,7 @@ h1 {
 
 .under {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   color:rgb(255, 255, 255);
   transform: translate(-50%, -50%);
@@ -109,7 +109,7 @@ h1 {
 }
 .kbutton {
   position: absolute;
-  top: 80%;
+  top: 60%;
   left: 50%;
   color:rgb(255, 255, 255);
   background-color: #31A3AE; 
@@ -120,6 +120,10 @@ h1 {
   font-weight: 900;
 }
 
+.kbutton a:hover {
+  background: #31A3AE;
+  color: #257886;
+}
 
 
 .kop {
@@ -140,6 +144,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 75%;
+  padding-bottom: 1em;
 }
 
 .centered1 {
@@ -291,103 +296,14 @@ h3 {
   border: 2px solid #F07000;
 }
 
-
-/* components */
-.testimonial-grid {
-  display: grid;
-  gap: 1.5rem;
-  grid-auto-columns: 1fr;
-  grid-template-areas: 
-   'one'
-   'two'
-   'three'
-   'four'
-   'five';
-
-  padding-block: 2rem;
-  width: min(95%, 70rem);
-  margin-inline: auto;
-}
-
-.testimonial:nth-child(1) {
-  grid-area: one;
-}
-.testimonial:nth-child(2) {
-  grid-area: two;
-}
-.testimonial:nth-child(3) {
-  grid-area: three;
-}
-.testimonial:nth-child(4) {
-  grid-area: four;
-}
-.testimonial:nth-child(5) {
-  grid-area: five;
-}
-
-@media (min-width: 30em) {
-  .testimonial-grid {
-    grid-template-areas: 
-      'one one'
-      'two five'
-      'three five'
-      'four five'
-  }
-}
-
-@media (min-width: 40em) {
-  .testimonial-grid {
-    grid-template-areas: 
-      'one one two five'
-      'three four four five'
-  }
-}
-
-.testimonial {
-  font-size: var(--fs-400);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
-}
-
-
-.testimonial.quote {
-  background-image: url("./images/bg-pattern-quotation.svg");
-  background-repeat: no-repeat;
-  background-position: top right 10%;
-}
-
-.testimonial img {
-  width: 1.75rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-}
-
-.testimonial .name {
-  font-size: var(--fs-400);
-  font-weight: var(--fw-400);
-  line-height: 1;
-}
-
-.testimonial .position {
-  font-size: var(--fs-300);
-  opacity: 0.5;
-}
-
-.testimonial > p:first-of-type {
-  font-size: var(--fs-500);
-  line-height: 1.2;
-}
-
-.testimonial > p:last-of-type {
-  opacity: 0.7;
-}
-
 .div-wrapper {
   position: relative;
   height: 20em;
   padding-top: 20cm;
   background-color: #FBF2EA;
+  border-style: solid;
+  color: #F1E3D8;
+  border-width: em;
 }
 
 .div-wrapper img {
@@ -398,7 +314,7 @@ h3 {
 
 .begrip {
   width: 20em;
-  top: 30%;
-  left: 0;
+  top: 1%;
+  left: 1%;
   color: transparent;
 }
