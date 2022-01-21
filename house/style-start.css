@@ -1,0 +1,57 @@
+:root {
+  --clr-primary-400: 263 55% 52%;
+  --clr-secondary-400: 217 19% 35%;
+  --clr-secondary-500: 219 29% 14%;
+  --clr-neutral-100: 0 0% 100%;
+  --clr-neutral-200: 210 46% 95%;
+  --clr-neutral-300: 0 0% 81%;
+
+  --ff-primary: "Barlow Semi Condensed", sans-serif;
+
+  --fw-400: 500;
+  --fw-700: 600;
+}
+
+.fast {
+  position: absolute;
+  top: 4.5mm;
+  width: 12em;
+  left: 45.5%;
+}
+
+@media screen and (max-width: 800px) {
+  .fast{
+    display: none;
+  }
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  max-width: 100%; /* Full width */
+  height: 4.5em;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #F35B48;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #FFFFFF;
+  color: #F35B48;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
