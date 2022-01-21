@@ -55,3 +55,230 @@
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18.5px;
+  font-weight: bolder;
+}
+
+.under {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color:rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+  .content, .container, .under, .centered{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content, .container, .under, .centered{
+    width: 100%;
+    font-size: 100%;
+  }
+}
+.kbutton {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color:rgb(255, 255, 255);
+  background-color: #31A3AE; 
+  border: none;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 7.75px 27px;
+  font-weight: 900;
+}
+
+.kbutton a:hover {
+  background: #31A3AE;
+  color: #257886;
+}
+
+
+.kop {
+  text-align: center;
+  padding: 2.5em;
+  color: #F07000;
+  font-size: 1.15em;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.content1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-bottom: 1em;
+}
+
+.centered1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30.5px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 1300px) {
+   .content1{
+    width: 95%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .content1{
+   width: 100%;
+ }
+}
+
+.content2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-bottom: 4em;
+}
+
+@media screen and (max-width: 900px) {
+  .content2{
+   width: 100%;
+ }
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+
+body {
+  min-height: 100vh;
+
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-400);
+
+  background-color: hsl(var(--clr-neutral-200));
+}
+
+
+.div-wrapper {
+  position: relative;
+  height: 20em;
+  padding-top: 15cm;
+  background-color: #FBF2EA;
+  border-style: solid;
+  color: #F1E3D8;
+  border-width: em;
+}
+
+.div-wrapper img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.begrip {
+  width: 20em;
+  top: 1%;
+  left: 1%;
+  color: transparent;
+}
+
+@media screen and (max-width: 1300px) {
+  .div-wrapper{
+   padding-top: 10cm;
+ }
+}
+
+@media screen and (max-width: 900px) {
+  .div-wrapper{
+   padding-top: 7.5cm;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .div-wrapper{
+   padding-top: 3.5cm;
+ }
+}
