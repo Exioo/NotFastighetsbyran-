@@ -57,41 +57,60 @@
 }
 
 h1 {
-  position: relative;
+  position: absolute;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  left: 53.3%;
+  font-family: var(--ff-primary);
+  font-size: 1.2em;
 }
 
 .container {
   position: relative;
   text-align: center;
-  width: 75%;
-  left: 12%;
+  width: 85%;
+  left: 7.85%;
   color: black;
 }
 
 @media screen and (max-width: 1300px) {
-   .content1{
-    width: 95%;
+   .container{
+    left: 0;
+    width: 100%;
   }
 }
 @media screen and (max-width: 900px) {
-  .content1{
+  .container{
    width: 100%;
  }
 }
 
-.content2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  padding-bottom: 4em;
+.plus {
+  position: absolute;
+  right: 10%;
 }
 
-@media screen and (max-width: 900px) {
-  .content2{
-   width: 100%;
+.minus {
+  position: absolute;
+  left: 10%;
+}
+
+.knapp {
+  border-radius: 5mm;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  top: 45%;
+}
+
+@media screen and (max-width: 1300px) {
+  .plus{
+   right: 1%;
+ }
+}
+
+@media screen and (max-width: 1300px) {
+  .minus{
+   left: 1%;
  }
 }
 

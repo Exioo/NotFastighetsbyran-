@@ -157,6 +157,10 @@ h1 {
   color: #ffffff;
 }
 
+h1 {
+  font-size: 1em;
+}
+
 
 @media screen and (max-width: 1300px) {
    .content1{
@@ -229,7 +233,6 @@ textarea,
 select {
   font: inherit;
 }
-
 
 
 body {
