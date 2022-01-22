@@ -16,7 +16,7 @@
   position: absolute;
   top: 4.5mm;
   width: 12em;
-  left: 45.5%;
+  left: 45.2%;
 }
 
 @media screen and (max-width: 800px) {
@@ -54,6 +54,18 @@
 /* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.tire {
+  position: relative;
+  left: 13%;
+}
+
+@media screen and (max-width: 1300px) {
+  .tire{
+   left: 0;
+   width: 100%;
+ }
 }
 
 h1 {
