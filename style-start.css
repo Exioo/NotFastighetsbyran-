@@ -251,9 +251,6 @@ body {
   position: relative;
   height: 20em;
   padding-top: 15cm;
-  background-color: #FBF2EA;
-  border-style: solid;
-  color: #F1E3D8;
   border-width: em;
 }
 
@@ -265,7 +262,7 @@ body {
 
 .begrip {
   width: 20em;
-  top: 1%;
+  top: 20%;
   left: 1%;
   color: transparent;
 }
