@@ -107,6 +107,22 @@ h1 {
     font-size: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .centered{
+    width: 100%;
+    font-size: 120%;
+    top: 17.5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .under{
+    width: 100%;
+    font-size: 120%;
+  }
+}
+
 .kbutton {
   position: absolute;
   top: 60%;
@@ -151,6 +167,7 @@ h1 {
   position: absolute;
   top: 30%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
   font-size: 30.5px;
   font-weight: bolder;
@@ -187,6 +204,63 @@ h1 {
  }
 }
 
+.centered2 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 18.5px;
+  font-weight: bolder;
+}
+
+.under2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  color:rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .centered2{
+   top: 17.5%;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .centered2{
+   top: 15%;
+   font-size: 100%;
+ }
+}
+
+@media screen and (max-width: 800px) {
+  .under2{
+   font-size: 120%;
+ }
+}
+
+.kbutton2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color:rgb(255, 255, 255);
+  background-color: #31A3AE; 
+  border: none;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 7.75px 27px;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 800px) {
+  .kbutton2{
+    top: 55%;
+ }
+}
 /* Remove default margin */
 body,
 h1,
